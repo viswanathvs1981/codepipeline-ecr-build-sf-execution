@@ -39,4 +39,5 @@ COPY decision_trees /opt/program
 WORKDIR /opt/program
 
 RUN chmod +x train
+RUN chmod +x serve
 
